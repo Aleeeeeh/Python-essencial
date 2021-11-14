@@ -1,0 +1,42 @@
+Para adicionar ao PATH do sistema, caminho:
+C:\Users\User\AppData\Local\Programs\Python\Python37\Scripts
+
+=== Para criação de ambientes virtuais ===
+Nas variáveis de ambiente criar um novo como nome:WORKON.HOME e valor da variável:
+%USERPROFILE%\Envs
+Ou no diretório do usuário:
+C:\Users\nomeUserWindows\Envs
+
+Pasta onde é salva os projetos:
+C:\Users\User\PycharmProjects
+
+=== Instalando pacotes python ===
+- pip install virtualenv
+- pip install virtualenvwrapper-win
+- python -m pip install --upgrade pip "Para atualizar o pip"
+
+=== Forma sem instalar o virtualenv e virtualenvwrapper
+ - python3 -m venv nome do ambiente(Geralmente venv)
+ - venv\Scripts\activate.bat (Entra no ambiente virtual)
+
+
+=== Criando ambiente virtual===
+-- geek university programação em python essencial --
+mkvirtualenv guppe "guppe é apenas abreviação de um nome qualquer sugerido na aula"
+rmvirtualenv - Exclui o ambiente
+deactivate - Sair do ambiente virtual
+workon nomedoambiente - Para entrar novamente
+
+Com ambiebte virtual criado, usaremos uma versão do python diferente da do sistema, criado 
+dentro do ambiente virtual, com isso por exemplo quando instalarmos um módulo ele não remova nem atualize os módulos ja existentes, assim evitando incompatibilidade, causo já estamos usando versões especificas. 
+
+=== Easter Egg Python ===
+Digitando python no cmd abrimos o terminal python, e o comando import this vemos um poema
+
+=== Comandos ===
+Tecla ctrl + L limpa terminal (Pycharm)
+
+=== Importar arquivos py e executar no console python ===
+from funcoes_com_retorno import joga moeda
+Depois só ir executando no console joga_moeda()
+'Na dúdida consultar no arquivo funcoes_com_retorno, lá possui essa função joga_moeda()'

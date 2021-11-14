@@ -1,0 +1,25 @@
+### Coleções em python
+listas = [1,2,3,4] - Mutável
+Tuplas = (1,2,3) - Imutável
+Dicionários = { - Podemos nomear os indices
+    "nome": "Alefe",
+    "Idade": "24"
+}
+ print(Dicionarios["idade"])
+
+list = ['Alefe99', 'Thaylane99', 'Ayron99']
+
+for i in list:
+    print(i.replace('99', '')) ### Replace substituiu o 99 das string por vazio ###
+
+### Seta a quantidade de casas decimais
+arredonda = 6.0
+print('{:.2f}'.format(arredonda))
+retorna: 6.00
+
+### Arredonda
+pi = 3.141592653589793
+round(pi, 2)
+retorna: 3.14
+
+# Built-in -> Função integrada, ou seja não precisamos importar biblioteca para utilizar.
