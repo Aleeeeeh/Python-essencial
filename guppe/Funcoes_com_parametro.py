@@ -60,8 +60,12 @@ def soma_impares(numeros):
     return total
 
 
-lista = [1, 2, 3, 4, 5, 6, 7]
-print(soma_impares(lista))
+if __name__ == "__main__":
+    lista = [1, 2, 3, 4, 5, 6, 7]
+    print(soma_impares(lista))
+else:
+    print(f"Nome do __name__ : {__name__}")
+
 
 
 
