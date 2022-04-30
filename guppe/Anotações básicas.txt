@@ -27,8 +27,9 @@ rmvirtualenv - Exclui o ambiente
 deactivate - Sair do ambiente virtual
 workon nomedoambiente - Para entrar novamente
 
-Com ambiebte virtual criado, usaremos uma versão do python diferente da do sistema, criado 
-dentro do ambiente virtual, com isso por exemplo quando instalarmos um módulo ele não remova nem atualize os módulos ja existentes, assim evitando incompatibilidade, causo já estamos usando versões especificas. 
+Com ambiente virtual criado, usaremos uma versão do python diferente da do sistema, criado
+dentro do ambiente virtual, com isso por exemplo quando instalarmos um módulo ele não remova nem atualize os módulos
+ja existentes, assim evitando incompatibilidade, caso já estamos usando versões especificas.
 
 === Easter Egg Python ===
 Digitando python no cmd abrimos o terminal python, e o comando import this vemos um poema
