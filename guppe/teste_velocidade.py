@@ -43,6 +43,8 @@ list_inicio = time.time()
 print(sum([num for num in range(100000000)]))  # 100 milhões
 list_tempo = time.time() - list_inicio
 
-print(f'Generator Expression levou {gen_tempo}')
-print(f'List Comprehension levou {list_tempo}')
+
+# Utilizando gerenetion expression é mais rápida a execução
+print(f'Generator Expression levou {gen_tempo}')  # 4.096223...
+print(f'List Comprehension levou {list_tempo}')  # 4.61224...
 
